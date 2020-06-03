@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(100,50,101,0.5);
+	font-family:sans-serif, aileron;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+header{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	
+}
+.nav{
+	width:100%;
+	max-width: 1500px;
+	height: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.ite{
+	width: 1000px;
+	height:20px;
+	margin: 0 50px;
+}
+#logo{
+	color:black;
+	text-decoration: none;
+	line-height: 20px;
+	margin: 0 auto;
+}
+.nav-one{
+	display: flex;
+	justify-content:space-between;
+	list-style: none;
+}
+.nav-one li a {
+	text-decoration: none;
+	color: black;
+	margin: 0 5px;
+	line-height:20px;
+	display: block;
+}
+
+.nav1{
+	background: rgba(0,0,0,0.5);
+	width:100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.ite1{
+	width: 300px;
+	height: 70px;
+	margin: 0 50px;
+	
+}
+.logo1{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 70px;
+	padding: 0 20px;
+	display: block;
+}
+.nav-two{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.nav-two li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 70px;
+	margin: 0 10px;
+	display: block;
+}
